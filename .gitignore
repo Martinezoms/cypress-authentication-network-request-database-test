@@ -1,1 +1,5 @@
 node_modules
+.cache
+build
+prisma/demo.db
+prisma/test.db

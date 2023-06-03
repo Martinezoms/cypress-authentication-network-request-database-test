@@ -18,7 +18,7 @@ function NewsletterSignup() {
     <div>
       {result !== 'success' && (
         <fetcher.Form method="post" action="/newsletter">
-          <p>
+          <p className="mb-3">
             <input
               type="email"
               name="email"
